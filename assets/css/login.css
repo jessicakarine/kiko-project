@@ -1,0 +1,79 @@
+body {
+    background: #2E5077;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    
+
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    rgba(253, 253, 255, 0.3);
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    rgba(253, 253, 255, 0.3);
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    rgba(253, 253, 255, 0.3);
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    rgba(253, 253, 255, 0.3);
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    rgba(253, 253, 255, 0.3);
+}
+::placeholder { /* Most modern browsers support this now. */
+   color:    rgba(253, 253, 255, 0.3);
+}
+
+form div {
+    margin-bottom: 23px;
+    position: relative;
+
+}
+
+form div label {
+    position: absolute;
+    top: -12px;
+    left: 14px;
+    color: #FDFDFF;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+form div input {
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    border: 0px;
+    background: rgba(242, 242, 242, 0.2);
+    color: #ffffff;
+}
+
+form button {
+    background: #F6C543;
+    box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border: 0;
+    width: 100%;
+    padding: 15px;
+    color: #2E5077;
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+
+form p {
+    margin-top: 57px;
+    text-align: center;
+    color: #fff;
+}
+
+form p a {
+    text-decoration: none;
+    color: #F6C543;
+}
